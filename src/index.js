@@ -4,6 +4,12 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
+// For JavaScript import
+import 'tailwindcss/tailwind.css';
+
+// Or, if you're using a CSS file, add an import statement at the top of the CSS file
+import 'tailwindcss/tailwind.css';
+
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>

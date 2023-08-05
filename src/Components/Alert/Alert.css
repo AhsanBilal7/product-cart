@@ -1,0 +1,41 @@
+/* Example styles for the transition animation */
+
+  /* Custom styles for the alert component */
+
+.alert {
+    z-index: 2;
+    position: fixed;
+    top: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 50%;
+    max-width: 400px;
+    padding: 10px;
+    border: 2px solid #0a4900; /* Use your desired border color here */
+    background-color: #f3f4f6; /* Use your desired background color here */
+    color: #1e8a56; /* Use your desired text color here */
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(70, 133, 101, 0.1);
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    line-height: 1.5;
+    text-align: left;
+    opacity: 0;
+    animation: fadeInOut 3s ease-in-out forwards;
+  }
+  
+  @keyframes fadeInOut {
+    0% {
+      opacity: 0;
+    }
+    10% {
+      opacity: 1;
+    }
+    80% {
+      opacity: 1;
+    }
+    100% {
+      opacity: 0;
+    }
+  }
+  
